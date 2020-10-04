@@ -66,7 +66,7 @@ namespace CTRPluginFramework
 		menu->Append(coursecodes);
 
 		menucodes = new MenuFolder("Menu & Other Codes");
-		menucodes->Append(new MenuEntry("No Countdown", noCountdown, "You will be able to drive when the countdown normally would be happening."));
+		menucodes->Append(new MenuEntry("FUCK", noCountdown, "You will be able to drive when the countdown normally would be happening."));
 		menucodes->Append(new MenuEntry("Speedometer", spedometer, "You will be able to see your current speed in your preferred unit."));
 		menucodes->Append(new MenuEntry("Mii Dumper", nullptr, miiDumper, "This code can dump any player's Mii from an online match. Follow the instructions on screen after enabling the code in an online lobby. If the room is not fully populated, certain buttons may be blank or contain previous player's names. You can dump previous players with no problem even if they're not in the room."));
 		menucodes->Append(new MenuEntry("Disable First Person View", disableFirstPersonView, "You will not be able to activate first person view by pressing Up on the D-Pad."));
